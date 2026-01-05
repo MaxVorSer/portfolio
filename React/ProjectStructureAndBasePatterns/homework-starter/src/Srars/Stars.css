@@ -1,0 +1,23 @@
+.div-stars {
+    display: flex;
+    align-items: flex-start;
+}
+
+.div-star {
+    width: 10px;
+    padding: 5px;
+}
+
+button {
+    border: none;
+    background: none;
+    margin-right: 10px;
+}
+
+.fill {
+    fill: gold;
+}
+
+.fill1 {
+    fill: gold;
+}

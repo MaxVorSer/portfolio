@@ -1,0 +1,41 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "webpack serve --mode=development",
+        "build": "webpack --mode=production"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.26.0",
+        "@babel/preset-env": "^7.26.0",
+        "@squoosh/lib": "^0.5.3",
+        "babel-loader": "^9.2.1",
+        "css-loader": "^7.1.2",
+        "css-minimizer-webpack-plugin": "^7.0.0",
+        "html-webpack-plugin": "^5.6.3",
+        "image-minimizer-webpack-plugin": "^4.1.3",
+        "imagemin-gifsicle": "^7.0.0",
+        "imagemin-jpegtran": "^8.0.0",
+        "imagemin-optipng": "^8.0.0",
+        "imagemin-svgo": "^11.0.1",
+        "mini-css-extract-plugin": "^2.9.2",
+        "postcss": "^8.4.49",
+        "postcss-loader": "^8.1.1",
+        "postcss-preset-env": "^10.1.3",
+        "sass": "^1.83.1",
+        "sass-loader": "^16.0.4",
+        "sharp": "^0.33.5",
+        "style-loader": "^4.0.0",
+        "svgo": "^3.3.2",
+        "tailwindcss": "^3.4.17",
+        "webpack": "^5.97.1",
+        "webpack-cli": "^6.0.1",
+        "webpack-dev-server": "^5.2.0"
+    },
+    "dependencies": {
+        "@types/jest": "^29.5.5",
+        "card-validator": "^8.1.1",
+        "inputmask": "^5.0.8",
+        "redom": "^3.29.1",
+        "vite-plugin-windicss": "^1.9.1"
+    }
+}

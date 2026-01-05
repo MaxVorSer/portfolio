@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Цепочка прототипов</title>
+    <style>
+        .error {
+            border: 2px solid red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Просмотр цепочки прототипов</h1>
+    <input type="text" id="className" placeholder="Введите название класса">
+    <button id="showChain">Показать цепочку прототипов</button>
+    <ol id="prototypeChain"></ol>
+
+    <script>
+        document.getElementById('showChain').addEventListener('click', function() {
+            const input = document.getElementById('className');
+            const className = input.value.trim();
+            const prototypeChain = document.getElementById('prototypeChain');
+            prototypeChain.innerHTML = ''; // Очистка предыдущего результата
+            input.classList.remove('error'); // Удаление класса ошибки
+
+            const ClassRef = window[className];
+
+            if (typeof ClassRef !== 'function') {
+                input.classList.add('error'); // Подсветка поля ввода
+                return;
+            }
+
+            let current = ClassRef.prototype;
+
+            while (current) {
+                const listItem = document.createElement('li');
+                const constructorName = current.constructor ? current.constructor.name : '[Без названия]';
+                listItem.textContent = constructorName;
+
+                const propertiesList = document.createElement('ol');
+                for (const prop in current) {
+                    if (current.propertyIsEnumerable(prop)) {
+                        const propItem = document.createElement('li');
+                        propItem.textContent = `${prop}: ${typeof current[prop]}`;
+                        propertiesList.appendChild(propItem);
+                    }
+                }
+
+                listItem.appendChild(propertiesList);
+                prototypeChain.appendChild(listItem);
+                current = Object.getPrototypeOf(current);
+            }
+        });
+    </script>
+</body>
+
+</html>

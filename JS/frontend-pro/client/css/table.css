@@ -1,0 +1,47 @@
+.table__tr {
+    height: 60px;
+    padding: 20px;
+    background: #FFFFFF;
+    border-bottom: 1px solid #C8C5D1;
+}
+
+.table__id {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    align-items: center;
+    color: #B0B0B0;
+}
+
+.table__btn {
+    background-repeat: no-repeat;
+    background-position: center left;
+    padding-left: 17px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    border: none;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.table__actins-delete {
+    background-image: url(../img/cancel.png);
+}
+
+.table__actins-adit {
+    background-image: url(../img/edit.png);
+    margin-right: 32px;
+}
+
+.table__time {
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #B0B0B0;
+}
+
+.table__NSL:not(:last-child) {
+    margin-right: 10px;
+}

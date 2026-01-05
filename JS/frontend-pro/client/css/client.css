@@ -1,0 +1,127 @@
+.client__caption {
+    text-align: left;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    margin-bottom: 10px;
+}
+
+.container__client {
+    padding: 40px 20px;
+    background: rgb(229, 229, 229, 0.5);
+}
+
+.client__table {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.thead__th {
+    text-align: left;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    align-items: center;
+    color: #B0B0B0;
+    cursor: pointer;
+}
+
+.thead__th_id {
+    color: #9873FF;
+    padding-left: 20px;
+}
+
+.thead__th_id {
+    padding-right: 12px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 35px;
+}
+
+.thead__th_name {
+    padding-right: 12px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 150px;
+}
+
+.thead__th_data {
+    padding-right: 12px;
+    background-repeat: no-repeat;
+    background-position-y: 22px;
+    background-position-x: 50px;
+}
+
+.thead__th_last {
+    padding-right: 12px;
+    background-repeat: no-repeat;
+    background-position-y: 22px;
+    background-position-x: 58px;
+}
+
+.th__span {
+    color: #9873FF;
+}
+
+.arrow-up {
+    background-image: url(../img/arrow_up.svg);
+}
+
+.arrow-down {
+    background-image: url(../img/arrow_down.svg);
+}
+
+.client__div-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.client__btn {
+    border: 1px solid #9873FF;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #9873FF;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    padding-left: 26.5px;
+    padding-right: 26.5px;
+    cursor: pointer;
+}
+
+.img__btn {
+    margin-right: 10px;
+}
+
+.modal-delete {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 22px 88px;
+}
+
+.delete__h2 {
+    margin-bottom: 11px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.delete__p {
+    font-family: 'Open Sans';
+    text-align: center;
+    margin-bottom: 25px;
+    width: 275px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.client__table-tbody {
+    position: relative;
+}

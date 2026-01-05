@@ -1,0 +1,113 @@
+.contact {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    width: 390px;
+}
+
+.contact__type {
+    position: relative;
+}
+
+.contact__name {
+    height: 37px;
+    z-index: 1;
+    max-width: 134px;
+    min-width: 134px;
+    position: relative;
+    padding: 10px 12px;
+    padding-right: 60px;
+    cursor: pointer;
+    border: 1px solid #C8C5D1;
+    background-color: #E7E5EB;
+    color: #333333;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.contact__name::before {
+    content: '';
+    position: absolute;
+    right: 15px;
+    top: 13px;
+    width: 10px;
+    height: 10px;
+    background-position: center center;
+    background-image: url(../img/Vector.svg);
+    background-repeat: no-repeat;
+    transition: transform 0.3s ease-in-out;
+}
+
+.contact__list-actve.contact__name::before {
+    transform: rotate(180deg);
+    transition: transform 0.3s ease-in-out;
+}
+
+.contact__list {
+    position: absolute;
+    font-size: 12px;
+    z-index: 2;
+    width: 100%;
+    max-width: 134px;
+    min-width: 134px;
+    top: 36px;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+    background-color: #F4F3F6;
+    border: 1px solid #C8C5D1;
+}
+
+.contact__list.contact__list-actve {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+.contact__item {
+    cursor: pointer;
+    padding: 4px 0px 7px 12px;
+}
+
+.contact__input {
+    border: 1px solid #C8C5D1;
+    width: 364px;
+    height: 37px;
+    border-left: none;
+    padding-left: 12px;
+}
+
+.contact__delete {
+    width: 27px;
+    height: 37px;
+    background-image: url(../img/cancel.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #C8C5D1;
+    cursor: pointer;
+    border-left: none;
+    position: relative;
+}
+
+.contact__item:active {
+    background-color: #E7E5EB;
+}
+
+.contact__item:focus {
+    background-color: #E7E5EB;
+}
+
+.contact__item:hover {
+    background-color: #E7E5EB;
+}
+
+.contact__delete:hover .contact-tooltip {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+.contact__delete .contact-tooltip {
+    min-width: 150px;
+    top: -30px;
+}

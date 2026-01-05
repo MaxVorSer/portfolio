@@ -1,0 +1,167 @@
+.modal {
+    position: fixed;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #00000080;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    overflow-y: auto;
+    cursor: pointer;
+}
+
+.modal__content {
+    min-width: 450px;
+    cursor: auto;
+    position: absolute;
+    opacity: 0;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.15);
+}
+
+.popup__form {
+    display: flex;
+    flex-direction: column;
+}
+
+@keyframes popup {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.modal-active {
+    animation: popup 0.3s ease-in-out 0.3s forwards;
+}
+
+.popup__close {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-image: url('../img/close.svg');
+    border: none;
+    background-color: #FFFFFF;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+}
+
+.popup__h2 {
+    margin-top: 24px;
+    margin-left: 30px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.popup__floating:not(:last-child) {
+    position: relative;
+    margin: 0px 30px 32px 30px;
+}
+
+.popup__input-label {
+    position: absolute;
+    top: -4px;
+    left: 0;
+    height: 100%;
+    font-size: 14px;
+    padding-top: 5px;
+    pointer-events: none;
+    border: 1px solid transparent;
+    transform-origin: 0 0;
+    transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out;
+    color: #B0B0B0;
+    margin-bottom: 4px;
+}
+
+.popup__input:focus~.popup__input-label,
+.popup__input:not(:placeholder-shown)~.popup__input-label {
+    top: -10px;
+    transform: scale(.9) translate(0px, -15px);
+}
+
+.popup__input::placeholder {
+    font-size: 0;
+}
+
+.popup__input-name,
+.popup__input-surname,
+.popup__input-lastname {
+    outline: none;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #C8C5D1;
+}
+
+.popup__required {
+    color: #9873FF;
+}
+
+.popup__block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(201, 198, 210, 0.3);
+    margin-bottom: 25px;
+    padding: 25px;
+}
+
+.popup__block-error {
+    margin-bottom: 9px;
+}
+
+.popup__btn-add-contact {
+    border: none;
+    cursor: pointer;
+    color: #333333;
+    background-color: transparent;
+    display: none;
+    height: 35px;
+    background-image: url(../img/add_circle_outline.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+    padding-left: 20px;
+}
+
+.popup__btn-add-contact-activeBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup__divBtn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 29px;
+}
+
+.edit__id {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #B0B0B0;
+    margin-left: 9px;
+}
+
+.popup__error {
+    text-align: center;
+    color: red;
+    margin-bottom: 8px;
+}
