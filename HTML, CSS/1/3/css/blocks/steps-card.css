@@ -1,0 +1,22 @@
+.steps-list__count {
+    padding: 9px 21px;
+    border-radius: 12px;
+    color: white;
+    background-color: #476BF0;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+}
+
+.steps-list__title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.steps-list__text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+}

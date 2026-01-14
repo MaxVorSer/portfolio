@@ -1,0 +1,22 @@
+/* Global */
+
+
+/* ------------------------------------ */
+
+@import "global/fonts.css";
+@import "global/reboot.css";
+@import "global/container.css";
+@import "global/visually-hidden.css";
+
+/* Blocks */
+
+
+/* ------------------------------------ */
+
+@import "blocks/btn.css";
+@import "blocks/order.css";
+@import "blocks/form.css";
+@import "blocks/header.css";
+@import "blocks/footer.css";
+@import "blocks/tariff.css";
+@import "blocks/card.css";

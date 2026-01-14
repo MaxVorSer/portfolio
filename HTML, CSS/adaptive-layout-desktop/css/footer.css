@@ -1,0 +1,277 @@
+.footer {
+    min-height: 594px;
+    background-color: #222222;
+    max-width: 1920px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 50px 75px;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__left {
+    margin-right: 250px;
+}
+
+.footer__logo {
+    width: 224px;
+    height: 72px;
+    margin-bottom: 20px;
+}
+
+.footer__nav {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 90px;
+}
+
+.footer__nav-a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 36px;
+    color: #CACACA;
+    transition: color 200ms ease;
+}
+
+.footer__social-network {
+    width: 351px;
+}
+
+.footer__social-network-a {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.footer__social-network-item:not(:last-child) {
+    margin-right: 25px;
+}
+
+.fb {
+    background-image: url(../img/fb.svg);
+    transition: background-image 200ms ease;
+}
+
+.vk {
+    background-image: url(../img/Vk.svg);
+    transition: background-image 200ms ease;
+}
+
+.instagram {
+    background-image: url(../img/instagram.svg);
+    transition: background-image 200ms ease;
+}
+
+.footer__social-network-list {
+    display: flex;
+}
+
+.footer__center {
+    margin-right: 236px;
+}
+
+.footer__center__h2 {
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 59px;
+    color: #CACACA;
+    margin-bottom: 25px;
+}
+
+.footer__center__input {
+    width: 570px;
+    height: 60px;
+    margin-bottom: 25px;
+    background: #414141;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #CACACA;
+    padding-left: 24px;
+}
+
+.footer__center__message {
+    width: 570px;
+    height: 150px;
+    margin-bottom: 27px;
+    background: #414141;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #CACACA;
+    padding-left: 24px;
+    padding-top: 14px;
+    resize: none;
+    border: none;
+}
+
+.center-form__button {
+    padding: 19px 52px;
+    background: #FF9900;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 18px;
+    max-width: 280px;
+    height: 60px;
+    display: inline-block;
+    margin-right: 18px;
+    transition: background 200ms ease;
+}
+
+.center-form__label {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #CACACA;
+}
+
+.footer__right {
+    padding-top: 90px;
+}
+
+.footer__right-p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #CACACA;
+}
+
+.center-form__checkbox {
+    display: none;
+}
+
+.center-form__label {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #CACACA;
+    vertical-align: middle;
+    margin-bottom: 2px;
+    position: relative;
+}
+
+input:checked+label::before {
+    background-color: #FF9900;
+}
+
+.center-form__label::before {
+    content: '';
+    width: 11px;
+    height: 11px;
+    margin-top: 1.5px;
+    margin-left: 1px;
+    background-image: url(../img/mark.svg);
+    position: absolute;
+    opacity: 0;
+    background-repeat: no-repeat;
+}
+
+.center-form__checkbox:checked+.center-form__label::before {
+    opacity: 1;
+}
+
+.center-form__label-text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #CACACA;
+}
+
+.footer__nav-a:hover {
+    color: #FF9900;
+}
+
+.footer__nav-a:focus {
+    outline: none;
+    border: 2px solid #FF9900;
+}
+
+.footer__nav-a:active {
+    border: none;
+    color: #E1670E;
+}
+
+.footer__center__input:hover {
+    background: #666666;
+}
+
+.footer__center__input:focus {
+    background: #666666;
+}
+
+.footer__center__input:active {
+    background: #666666;
+}
+
+.footer__center__message:hover {
+    background: #666666;
+}
+
+.footer__center__message:focus {
+    background: #666666;
+}
+
+.footer__center__message:active {
+    background: #666666;
+}
+
+.center-form__button:focus {
+    outline: none;
+    background: rgba(255, 153, 0, 0.7);
+}
+
+.center-form__button:hover {
+    background: rgba(255, 153, 0, 0.7);
+}
+
+.center-form__button:active {
+    background: #E1670E;
+}
+
+.fb:hover {
+    background-image: url(../img/fbhover.svg)
+}
+
+.fb:focus {
+    outline: none;
+    border: 3px solid #FF9900;
+}
+
+.fb:active {
+    border: none;
+    background-image: url(../img/fbactiv.svg)
+}
+
+.vk:hover {
+    background-image: url(../img/vkhover.svg)
+}
+
+.vk:focus {
+    outline: none;
+    border: 3px solid #FF9900;
+}
+
+.vk:active {
+    border: none;
+    background-image: url(../img/vkactiv.svg)
+}
+
+.instagram:hover {
+    background-image: url(../img/instagramhover.svg)
+}
+
+.instagram:focus {
+    outline: none;
+    border: 3px solid #FF9900;
+}
+
+.instagram:active {
+    border: none;
+    background-image: url(../img/instagramactiv.svg)
+}

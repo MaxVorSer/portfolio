@@ -1,0 +1,107 @@
+/*spec*/
+
+.section-spec {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.h2-spec {
+  padding-left: 40px;
+}
+
+.spec-list {
+  margin-right: 23px;
+  margin-top: 20px;
+}
+
+.little-container-spec {
+  display: flex;
+}
+
+.spec-item-little {
+  width: 573px;
+  height: 258px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+}
+
+.h-spec-little {
+  display: inline-block;
+  margin: 0px;
+  margin-top: 40px;
+  font-family: Muller;
+  font-style: normal;
+  font-size: 40px;
+  line-height: 40px;
+  color: #FFFFFF;
+  width: 300px;
+  height: 80px;
+}
+
+.spec-detailed {
+  font-family: Muller;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 16px;
+  color: #FFCC66;
+  height: 16px;
+  width: 102px;
+  background-image: url(../img/Rectangle2.svg);
+  background-position: right center;
+  background-repeat: no-repeat;
+  margin-top: 47px;
+}
+
+.p-spec-little {
+  display: inline-block;
+  margin: 0px;
+  margin-top: 15px;
+  font-family: Muller;
+  font-size: 20px;
+  line-height: 20px;
+  color: #FFFFFF;
+  opacity: 0.8;
+}
+
+.spec-item-little-1 {
+  background-image: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(../img/Rectangle14.jpg);
+}
+
+.spec-item-little-2 {
+  background-image: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(../img/Rectangle14-1.jpg);
+  margin-top: 23px;
+}
+
+.spec-item-big {
+  width: 573px;
+  height: 540px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  background-image: linear-gradient(90deg, rgba(48, 64, 89, 0.84) -2.9%, rgba(53, 65, 83, 0) 65.7%), url(../img/number.jpg);
+}
+
+.h-big-spec {
+  margin: 0px;
+  font-family: Muller;
+  font-style: normal;
+  font-size: 60px;
+  line-height: 60px;
+  color: #FFFFFF;
+  Width: 299px;
+  Height: 180px;
+  margin-top: 211px;
+}
+
+.p-big-spec {
+  margin: 0px;
+  font-family: Muller;
+  font-size: 30px;
+  line-height: 30px;
+  color: #FFFFFF;
+  opacity: 0.8;
+  margin-top: 15px;
+}

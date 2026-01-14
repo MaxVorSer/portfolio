@@ -1,0 +1,23 @@
+.PlayListInfoPage {
+    color: darkcyan;
+}
+
+.playList-p {
+    margin: 0px;
+}
+
+.playList-p2 {
+    margin-top: 0px;
+    margin-bottom: 7px;
+    border-bottom: 2px solid gray;
+    padding-bottom: 7px;
+}
+
+.PlayList-li {
+    list-style: none;
+}
+
+.PlayList-ul {
+    padding: 0px;
+    margin: 0px;
+}

@@ -1,0 +1,16 @@
+.advantages__main-list {
+    display: grid;
+    gap: 40px;
+    margin: 0;
+    list-style-type: none;
+    margin-bottom: 100px;
+    padding: 0;
+}
+
+.advantages__main-list--pay {
+    grid-template-columns: 600px;
+}
+
+.advantages__main-item--xl {
+    grid-column: span 2;
+}

@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Muller', 'sans-serif';
+}
+
+.container {
+    max-width: 1870px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0px 50px;
+    background-color: rgb(219, 227, 225);
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+p,
+h1,
+h2,
+h3,
+ul,
+ol {
+    margin: 0px;
+}

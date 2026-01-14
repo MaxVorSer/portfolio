@@ -1,0 +1,273 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+
+/* checkbox */
+
+.div-checkbox {
+    width: 176px;
+    padding: 20px 25px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: 1px solid #FFFFFF;
+}
+
+.div-check {
+    display: flex;
+    flex-direction: column;
+}
+
+.check {
+    display: none;
+}
+
+.label-check {
+    cursor: pointer;
+    margin-bottom: 24px;
+    align-items: center;
+    display: flex;
+}
+
+.label-span:focus {
+    border-color: #CCB26E;
+}
+
+.check+.label-span {
+    display: inline-block;
+    top: 0;
+    left: 0;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #999999;
+    border-radius: 3px;
+    position: relative;
+}
+
+.check+.label-span:before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    background-image: url(img/Rectangle.svg);
+    position: absolute;
+    opacity: 0;
+    background-repeat: no-repeat;
+    transition: opacity .3s ease-in-out;
+    margin-top: 2.5px;
+    margin-left: 2.5px;
+}
+
+.check:checked+.label-span:before {
+    opacity: 1;
+    border-color: #CCB26E;
+}
+
+.check:checked+.label-span {
+    border-color: #CCB26E;
+}
+
+.label-span {
+    margin-right: 9px;
+}
+
+
+/* select */
+
+.choices {
+    width: 176px;
+}
+
+.choices__inner {
+    font-size: 14px;
+    line-height: 19px;
+    color: #333;
+    border-radius: 10px;
+    border: 1px solid transparent;
+}
+
+.choices[data-type*=select-one]::after {
+    border: none;
+    margin-top: 0px;
+    width: 13px;
+    height: 13px;
+    background-image: url("../16_knowledge-base/img/RectangleSelect.svg");
+    background-repeat: no-repeat;
+    transform: translateY(-30%);
+}
+
+.choices[data-type*=select-one].is-open::after {
+    background-image: url("../16_knowledge-base/img/RectangleSelectOpen.svg");
+    margin: 0px;
+    border: none;
+    z-index: 10;
+}
+
+.is-open .choices__inner {
+    position: relative;
+    z-index: 5;
+    border: 1px solid #CCB26E;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.choices__list--dropdown {
+    border: 1px solid transparent;
+    border-radius: 10px;
+    margin-top: -13px;
+    padding-top: 13px;
+}
+
+.choices__list--dropdown .choices__item--selectable {
+    padding: 10px 15px;
+}
+
+.choices__list--dropdown .choices__list {
+    max-height: none;
+    overflow: initial;
+}
+
+.is-open .choices__list--dropdown {
+    border: 1px solid #CCB26E;
+}
+
+[data-choice-disabled] {
+    display: none;
+}
+
+.is-open .choices__list--dropdown,
+.is-open .choices__list[aria-expanded] {
+    border: 1px solid #CCB26E;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.choices__list--dropdown .choices__placeholder {
+    display: none;
+}
+
+
+/* map */
+
+[class*="ground-pane"] {
+    filter: grayscale(1);
+}
+
+
+/* scrollbar */
+
+.scrollbar {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.scroll {
+    width: 340px;
+    height: 310px;
+    padding: 20px 30px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 170%;
+}
+
+.simplebar-content {
+    background-color: #FFFFFF;
+}
+
+.simplebar-scrollbar:before {
+    background: #CCB26E;
+}
+
+
+/* form */
+
+.form-validate {
+    display: flex;
+    flex-direction: column;
+    width: 440px;
+    height: 410px;
+    padding: 38px 30px;
+    background: #000000;
+    border-radius: 10px;
+}
+
+.form-label {
+    margin-bottom: 31px;
+    position: relative;
+}
+
+.input {
+    width: 380px;
+    height: 60px;
+    border: 1px solid #FF5C00;
+    border-radius: 10px;
+    background: #FFFFFF;
+    padding: 24px 20px;
+}
+
+.button-form {
+    background: #FF5C00;
+    width: 192px;
+    height: 60px;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+
+.just-validate-error-label {
+    color: #FF5C00;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 5px;
+    left: 20px;
+    bottom: 65px;
+}
+
+
+/* Tooltip */
+
+.tooltip {
+    max-width: 375px;
+    background-color: #fff;
+    padding: 30px;
+    margin-top: 55px;
+    margin-left: 55px;
+    line-height: 24px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.marker {
+    position: relative;
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    text-align: center;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    background-color: #bcbcbc;
+    color: white;
+}
+
+.marker:hover,
+.marker:focus {
+    background: #cbb468;
+}
+
+.tippy-box {
+    background-color: #666666;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.tippy-arrow::before {
+    color: #666666;
+}

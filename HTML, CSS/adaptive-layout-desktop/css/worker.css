@@ -1,0 +1,138 @@
+.worker {
+    margin-bottom: 100px;
+}
+
+.worker__h2 {
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 59px;
+    color: #333333;
+    margin-bottom: 50px;
+}
+
+.worker__step {
+    margin-bottom: 45px;
+}
+
+.worker__step-a {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #333333;
+    display: inline-block;
+    transition: color 200ms ease;
+}
+
+.worker__step-a:not(:last-child) {
+    margin-right: 82px;
+}
+
+.description-steps {
+    display: flex;
+    justify-content: space-between;
+}
+
+.description-steps__right {
+    background-image: url(../img/laptop.jpg);
+    width: 870px;
+    min-height: 460px;
+    margin-top: 11px;
+}
+
+.description-steps__left {
+    width: 758px;
+    min-height: 460px;
+}
+
+.description-steps__h3 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333333;
+    margin-bottom: 8px;
+}
+
+.description-steps__p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #333333;
+    margin-bottom: 50px;
+}
+
+.description-steps__btn-1 {
+    padding: 20px 38px;
+    background: #FF9900;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    min-width: 175px;
+    height: 60px;
+    display: inline-block;
+    margin-right: 27px;
+    transition: background 200ms ease;
+}
+
+.description-steps__btn-2 {
+    padding: 20px 38px;
+    border: 1px solid #333333;
+    min-width: 150;
+    height: 58px;
+    font-size: 16px;
+    line-height: 18px;
+    min-width: 180px;
+    color: #333333;
+    margin-top: 10px;
+    transition: background 200ms ease;
+}
+
+.description-steps__btn-1:focus {
+    outline: none;
+    background: rgba(255, 153, 0, 0.7);
+}
+
+.description-steps__btn-1:hover {
+    background: rgba(255, 153, 0, 0.7);
+}
+
+.description-steps__btn-1:active {
+    background: #E1670E;
+}
+
+.description-steps__btn-2:focus {
+    outline: none;
+    background: #666666;
+    color: #FFFFFF;
+}
+
+.description-steps__btn-2:hover {
+    background: #666666;
+    color: #FFFFFF;
+}
+
+.description-steps__btn-2:active {
+    background: #000000;
+    color: #FFFFFF;
+}
+
+.worker__button:hover {
+    color: #FF9900;
+}
+
+.worker__button:focus {
+    outline: none;
+    border: 2px solid #FF9900;
+}
+
+.worker__button:active {
+    border: none;
+    color: #E1670E;
+}
+
+.worker__button {
+    border: none;
+    background-color: #FFFFFF;
+    padding: 0px;
+    cursor: pointer;
+}

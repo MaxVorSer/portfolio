@@ -1,0 +1,44 @@
+.pay__list {
+    display: grid;
+    grid-template-columns: repeat(4, 277px);
+    justify-content: center;
+    gap: 40px;
+    margin: 0 0 100px;
+    align-items: start;
+    padding: 0;
+}
+
+.pay__title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.pay__item {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pay__svg {
+    margin-bottom: 20px;
+}
+
+.pay__text-up {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.pay__text-down {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+}

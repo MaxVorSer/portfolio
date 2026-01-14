@@ -1,0 +1,133 @@
+/*accomondation*/
+
+.accomondation-ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.accomondation-li {
+  margin-bottom: 23px;
+  padding: 0px 45px 40px 45px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-color: #FFFFFF;
+  width: 374px;
+  height: 440px;
+  border-radius: 15px;
+}
+
+.accomondation-li:not(:last-child) {
+  padding: 253px 46px 45px 45px;
+}
+
+.accomondation-li-1 {
+  background-image: url(../img/accomondation/1.jpg);
+}
+
+.accomondation-li-2 {
+  background-image: url(../img/accomondation/2.jpg);
+}
+
+.accomondation-li-3 {
+  background-image: url(../img/accomondation/3.jpg);
+}
+
+.accomondation-li-4 {
+  background-image: url(../img/accomondation/4.jpg);
+}
+
+.accomondation-li-5 {
+  background-image: url(../img/accomondation/5.jpg);
+}
+
+.accomondation-li-6 {
+  background-image: url(../img/accomondation/6.jpg);
+}
+
+.accomondation-li-7 {
+  background-image: url(../img/accomondation/7.jpg);
+}
+
+.accomondation-li-8 {
+  background-image: url(../img/accomondation/8.jpg);
+}
+
+.accomondation-li-9 {
+  background-image: url(../img/accomondation/9.jpg);
+}
+
+
+.item_desc-name {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  color: #000000;
+  margin-bottom: 16px;
+}
+
+
+.item_desc {
+  display: inline-block;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  color: #999999;
+  margin-bottom: 16px;
+}
+
+.item_desc_2 {
+  display: inline-block;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  margin-right: 43px;
+}
+
+.item_desc-price {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.item_desc-location {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  color: #999999;
+}
+
+.btr {
+  margin-top: 20px;
+  display: inline-block;
+  padding: 20px 13px;
+  color: #CC9933;
+  border: 1px solid #CC9933;
+  width: 100px;
+  height: 42px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 10px;
+}
+
+.link-watch {
+  display: inline-block;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 200%;
+  color: #FFFFFF;
+  height: 38px;
+  background-image: url(../img/accomondation/Rectangle2accomondation.svg);
+  background-position: right center;
+  background-repeat: no-repeat;
+  padding-right: 20px;
+  margin-top: 373px;
+}

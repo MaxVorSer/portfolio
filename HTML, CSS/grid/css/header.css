@@ -1,0 +1,38 @@
+.header {
+    background-color: #3F2AFF;
+    padding: 40px 165px;
+}
+
+.nav__list {
+    display: flex;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__item {
+    margin-right: 56px;
+}
+
+.nav__item:last-child {
+    margin-right: 0px;
+}
+
+.nav__item-a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.header__burger {
+    background-image: url(../img/burger.svg);
+    width: 21px;
+    height: 17px;
+    display: none;
+    cursor: pointer;
+    background-color: transparent;
+}

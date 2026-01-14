@@ -1,0 +1,196 @@
+@font-face {
+  font-family: 'Muller';
+  src: local('Muller Medium'), local('MullerMedium'), url('../font/MullerMedium.woff2') format('woff2'), url('../font/MullerMedium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: local('Muller Regular'), local('MullerRegular'), url('../font/MullerRegular.woff2') format('woff2'), url('../font/MullerRegular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: local('Muller Bold'), local('MullerBold'), url('../font/MullerBold.woff2') format('woff2'), url('../font/MullerBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+.visually-hidden {
+  visibility: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/*header*/
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  padding-right: 34px;
+}
+
+.header {
+
+  height: 150px;
+}
+
+.container-header {
+  height: 100%;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 35px;
+}
+
+.contact-link {
+  margin-right: auto;
+}
+
+.nav-one {
+  display: inline-block;
+  height: 70px;
+  align-items: center;
+  margin-right: auto;
+  display: flex;
+  margin-top: 30px;
+  border: 1px solid #CC9933;
+  border-radius: 15px;
+  padding-right: 45px;
+}
+
+.nav-list-one {
+  display: flex;
+  margin-right: auto;
+}
+
+.nav-item-one {
+  padding-left: 45px;
+}
+
+.btn {
+  padding: 20px 13px;
+  color: #CC9933;
+  border: 1px solid #CC9933;
+  height: 42px;
+  align-items: center;
+  display: flex;
+  border-radius: 10px;
+}
+
+.btn-tour {
+  margin-right: 40px;
+}
+
+
+/*spec*/
+
+.section-spec{
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.h2-spec{
+padding-left: 40px;
+}
+
+.little-container-spec{
+  display: flex;
+}
+
+.spec-item-little{
+width: 573px;
+}
+
+/*we*/
+
+.we{
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.section-p-we{
+padding-top: 10px;
+}
+
+/*services*/
+
+.services{
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.services-ul{
+display: flex;
+flex-wrap: wrap;
+}
+
+.services-li{
+ flex: 50%;
+ padding: 25px 125px 50px 45px;
+}
+
+/*Advantages*/
+
+.Advantages{
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.advantages-ul{
+padding-top: 10px;
+display: flex;
+flex-wrap: wrap;
+}
+
+.advantages-li{
+  padding: 40px 40px 40px 45px;
+flex: 0 0 25%;
+}
+
+/*accomondation*/
+
+.accomondation{
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.accomondation-ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.accomondation-li{
+  flex: 0 0 30%;
+  padding: 35px 45px 40px 45px;
+}

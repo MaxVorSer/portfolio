@@ -1,0 +1,231 @@
+.header {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    background: #FFFFFF;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.header__burger {
+    background-image: url(../img/burger.svg);
+    width: 30px;
+    height: 27px;
+    display: none;
+    background-repeat: no-repeat;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.header__burger:focus {
+    border: 2px solid #FF9900;
+}
+
+.header__burger:active {
+    background-image: url(../img/burgeractive.svg);
+}
+
+.nav__list {
+    display: flex;
+    margin-right: 85px;
+}
+
+.header__logo {
+    width: 224px;
+    height: 72px;
+}
+
+.nav__item-a {
+    color: #333333;
+    transition: border 200ms ease;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav__item {
+    margin-top: 3px;
+    margin-right: 87px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.nav__item:last-child {
+    margin-right: 0px;
+}
+
+.nav__search {
+    background-image: url(../img/search.svg);
+    height: 24px;
+    width: 24px;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: background-image 200ms ease;
+    border: none;
+    background-color: white;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+.nav__item-a:focus {
+    outline: none;
+    border: 3px solid #FF9900;
+    color: #333333;
+}
+
+.nav__item-a:active {
+    outline: none;
+    border: none;
+    border-bottom: 3px solid #FF9900;
+    color: #E1670E;
+}
+
+.nav__item-a:hover {
+    border-bottom: 3px solid #FF9900;
+}
+
+.nav__search:hover {
+    background-image: url(../img/searchhover.svg)
+}
+
+.nav__search:focus {
+    outline: none;
+    border: 3px solid #FF9900;
+}
+
+.nav__search:active {
+    border: none;
+    background-image: url(../img/searchhover.svg)
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-pagination {
+    z-index: 3px;
+}
+
+.header__menu {
+    position: absolute;
+    z-index: 10;
+    top: 70px;
+    bottom: 0;
+    left: 0;
+    width: 400px;
+    padding: 40px;
+    background-color: #FFFFFF;
+    transition: transform .3s ease-in-out;
+    transform: translateX(-101%);
+}
+
+.header__menu-active {
+    transform: none;
+}
+
+.header__search {
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    z-index: 20;
+    background: #FFFFFF;
+    padding: 16px;
+    border-radius: 16px;
+    transition: transform .3s ease-in-out;
+    transform: translateY(-200px);
+    height: 60px;
+}
+
+.header__search-active {
+    transform: translateY(-50%);
+}
+
+.search__btn {
+    background-image: url(../img/closed_search.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    border: none;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.search__input {
+    font-style: normal;
+    font-weight: 500;
+    border-bottom: 1px solid #CACACA;
+    margin-right: 15px;
+}
+
+.search__btn:active {
+    background-image: url(../img/Ellipseactiv.svg);
+}
+
+.search__btn:hover {
+    background-image: url(../img/statushover.svg);
+}
+
+.search__btn:focus {
+    border: 3px solid #FF9900;
+}
+
+.nav__list_btn {
+    background-image: url(../img/closed_search.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    border: none;
+    background-color: #FFFFFF;
+    margin-bottom: 70px;
+    cursor: pointer;
+}
+
+.nav__list_btn:active {
+    background-image: url(../img/Ellipseactiv.svg);
+}
+
+.nav__list_btn:hover {
+    background-image: url(../img/statushover.svg);
+}
+
+.nav__list_btn:focus {
+    border: 3px solid #FF9900;
+}

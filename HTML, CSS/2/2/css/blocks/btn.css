@@ -1,0 +1,16 @@
+.btn {
+    display: block;
+    text-align: center;
+    background: black;
+    border-radius: 8px;
+    color: white;
+    padding: 12px 20px;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.btn--qr {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}

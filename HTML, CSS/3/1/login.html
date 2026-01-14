@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Вход - Газпромбанк Бизнес-Онлайн</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__wraper">
+                <a class="header__logo-link" href="#" aria-label="Перейти на главную страницу Газпромбанк Мобайл">
+                    <img src="/images/sprite/logo.svg" class="header__logo" width="203" height="50" aria-hidden="true">
+                </a>
+                <div class="header__reight">
+                    <div class="header__best">
+                        <span class="header__best-top">Топ-3 лучших банков для корпоративных клиентов</span>
+                        <span class="header__best-bottom">По версии Markswebb</span>
+                    </div>
+                    <a class="header__marksweb" href="#" aria-label="Перейти на главную страницу marksweb">
+                        <svg class="header__marksweb-svg" width="24" height="14" aria-hidden="true">
+                            <use xlink:href="images/sprite.svg#icon-markswebb"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="login">
+            <div class="container">
+                <div class="login__wrapper">
+                    <div class="login__registration">
+                        <h1 class="login__title visually-hidden" aria-label="Вход - Газпромбанк Бизнес-Онлайн">Вход - Газпромбанк Бизнес-Онлайн</h1>
+                        <form class="form form--login" action="#" method="post">
+                            <div class="form__inner">
+                                <h2 class="form__title">Вход в ГПБ Бизнес-онлайн</h2>
+                                <div class="form__wrapper-input form__wrapper-input--login">
+                                    <div class="form__input form__input--all ">
+                                        <input class="form__input-field" type="text" name="login" id="login" required="">
+                                        <label class="form__input-label" for="login">Логин *</label>
+                                        <span class="form__input-error">Поле обязательно для заполнения</span>
+                                        <svg class="login__entry-link-icon" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                          <path fill-rule="evenodd" clip-rule="evenodd" d="M12.0001 4.0166C9.77715 4.0166 7.9751 5.81866 7.9751 8.0416C7.9751 10.2645 9.77715 12.0666 12.0001 12.0666C14.223 12.0666 16.0251 10.2645 16.0251 8.0416C16.0251 5.81866 14.223 4.0166 12.0001 4.0166ZM6.4751 8.0416C6.4751 4.99023 8.94872 2.5166 12.0001 2.5166C15.0515 2.5166 17.5251 4.99023 17.5251 8.0416C17.5251 11.093 15.0515 13.5666 12.0001 13.5666C8.94872 13.5666 6.4751 11.093 6.4751 8.0416Z" fill="currentColor"/>
+                                          <path fill-rule="evenodd" clip-rule="evenodd" d="M11.9996 13.5833C10.1687 13.5831 8.3955 14.2243 6.98813 15.3954C5.58112 16.5663 4.6286 18.193 4.29593 19.993C4.29584 19.9934 4.29575 19.9939 4.29566 19.9944L3.98787 21.6998L2.51172 21.4334L2.82032 19.7236L2.82059 19.7221C3.21667 17.5768 4.35174 15.6379 6.02864 14.2425C7.70553 12.847 9.81829 12.083 11.9999 12.0833L12 12.0833C14.1842 12.0838 16.299 12.8503 17.9762 14.2494C19.6535 15.6485 20.787 17.5915 21.1793 19.7402L21.1794 19.741L21.4879 21.45L20.0117 21.7165L19.7037 20.0096C19.7036 20.0093 19.7036 20.0091 19.7035 20.0088C19.3741 18.2058 18.4229 16.5753 17.0154 15.4013C15.6077 14.2271 13.8328 13.5837 11.9997 13.5833" fill="currentColor"/>
+                                        </svg>
+                                    </div>
+                                    <div class="form__input form__input--all">
+                                        <input class="form__input-field" type="text" name="password" id="password" required="">
+                                        <label class="form__input-label" for="password">Имя *</label>
+                                        <span class="form__input-error">Поле обязательно для заполнения</span>
+                                        <svg class="login__entry-link-icon" width="24" height="24" aria-hidden="true">
+                                            <use xlink:href="images/sprite.svg#icon-password"></use>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <button class="btn btn--login" type="submit">Войти</button>
+                                <a class="login__forget" href="#">Забыли логин или пароль?</a>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="login__entry-help">
+                        <span class="login__entry-help-span">Войти с помощью:</span>
+                        <a class="login__entry-help-link" href="#">
+                            <span class="login__icon-span">
+                                <svg class="login__link-icon" width="24" height="24" aria-hidden="true">
+                                    <use xlink:href="images/sprite.svg#icon-GPB"></use>
+                                </svg>
+                            </span>
+                            <span class="login__entry-help-span">ЭТП ГПБ</span>
+                        </a>
+                    </div>
+                    <a class="login__link-registration" href="#">Зарегистрироваться</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <ul class="footer__left">
+                    <li class="footer__tel">
+                        <svg class="footer__tel-icon" width="16" height="16" aria-hidden="true">
+                            <use xlink:href="images/sprite.svg#icon-tel"></use>
+                        </svg>
+                        <span class="footer__title">8 800 100 11 89</span>
+                    </li>
+                    <li class="footer__tg">
+                        <svg class="footer__tg-icon" width="17" height="14" aria-hidden="true">
+                            <use xlink:href="images/sprite.svg#icon-tg"></use>
+                        </svg>
+                        <span class="footer__title">Написать в Telegram</span>
+                    </li>
+                    <li class="footer__copyright">&copy;&nbsp;2024 Банк ГПБ (АО) Генеральная лицензия Банка России &#8470;&nbsp;354</li>
+                    <li class="footer__copyright">Политика обработки персональных данных</li>
+                </ul>
+                <button class="btn-theme">
+                    <span class="footer__theme">Светлая тема</span>
+                    <svg class="footer__theme-logo" width="16" height="16" aria-hidden="true">
+                            <use xlink:href="images/sprite.svg#icon-theme"></use>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

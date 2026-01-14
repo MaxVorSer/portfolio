@@ -1,0 +1,86 @@
+.course {
+    color: #212133;
+    display: flex;
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+.course__h2 {
+    margin: 80px 0px 30px 0px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    align-items: center;
+    color: #212133;
+}
+
+.course__list {
+    margin-left: 91px;
+    margin-right: 165px;
+}
+
+.course__item {
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #EDF0F9;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.course__item-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.course__item:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+}
+
+.course__item__chinema:before {
+    background-image: url(../img/cinima.svg);
+}
+
+.course__item__blender:before {
+    background-image: url(../img/Blender.jpg);
+}
+
+.course__item__3ds:before {
+    background-image: url(../img/3ds.jpg);
+}
+
+.course__item__zbrush:before {
+    background-image: url(../img/Zbrush.jpg);
+}
+
+.course__h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    color: #212133;
+}
+
+.course__p {
+    margin-bottom: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #666666;
+}
+
+.course__btn {
+    height: 60px;
+    width: 202px;
+}

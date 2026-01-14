@@ -1,0 +1,110 @@
+.questions {
+    margin-bottom: 99px;
+}
+
+.questions__container {
+    border-bottom: 1px solid #CACACA;
+}
+
+.questions__h2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 59px;
+    color: #333333;
+    margin-bottom: 42px;
+}
+
+.questions__p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #333333;
+    max-width: 1030px;
+}
+
+.questions__details {
+    cursor: pointer;
+    height: 111px;
+    border-top: 1px solid #CACACA;
+    border-bottom: 1px solid #CACACA;
+}
+
+.questions__summary:hover {
+    background-image: url(../img/+хfocushover.svg);
+    background-repeat: no-repeat;
+    color: #FF9900;
+}
+
+.questions__summary:focus {
+    outline: none;
+    background-image: url(../img/+хfocushover.svg);
+    background-repeat: no-repeat;
+    color: #FF9900;
+}
+
+.questions__summary:active {
+    color: #333333;
+    background-image: url(../img/+хactiv.svg);
+    background-repeat: no-repeat;
+}
+
+.questions__details:hover {
+    border-top: 1px solid #FF9900;
+    border-bottom: 1px solid #FF9900;
+}
+
+.questions__details:focus {
+    outline: none;
+    border-top: 1px solid #FF9900;
+    border-bottom: 1px solid #FF9900;
+}
+
+.questions__details:active {
+    border-top: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+}
+
+.questions__list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.questions__item {
+    padding: 29.5px 0px;
+    cursor: pointer;
+    border-top: 2px solid #CACACA;
+    transition: color .5s ease, border-color .5s ease;
+}
+
+.questions__summary {
+    font-weight: bold;
+    font-size: 23.5px;
+    line-height: 32px;
+    color: #333333;
+    background-image: url(../img/+х.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+    display: block;
+    height: 50px;
+    padding-top: 10px;
+}
+
+.questions__item:last-child {
+    border-bottom: 2px solid #CACACA;
+}
+
+.questions__item:hover {
+    color: #FF9900;
+    border-color: #FF9900;
+}
+
+.questions__item:hover+.questions__item {
+    border-color: #FF9900;
+}
+
+.questions__item:hover+.questions__item:last-child {
+    border-color: #FF9900;
+    border-bottom: 2px solid #CACACA;
+}

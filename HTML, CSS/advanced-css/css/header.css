@@ -1,0 +1,97 @@
+/*header*/
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.h2 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 40px;
+  margin: 0px;
+  margin-left: 40px;
+}
+
+.logo-img {
+  padding-right: 34px;
+}
+
+.personal {
+  font-size: 16px;
+  font-style: normal;
+  color: var(--colorCC9933);
+  height: 14px;
+  padding-left: 25px;
+  background-image: url(../img/arrow.svg);
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+
+.container-header {
+  height: 100%;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 35px;
+}
+
+.contact-link {
+  margin-right: auto;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  color: #666666;
+  font-style: normal;
+}
+
+.nav-one {
+  display: inline-block;
+  height: 70px;
+  align-items: center;
+  margin-right: auto;
+  display: flex;
+  margin-top: 30px;
+  border: 1px solid var(--colorCC9933);
+  border-radius: 15px;
+  padding-right: 45px;
+  background: var(--colorFFFFFF);
+  padding: 27px 45px;
+}
+
+.nav-list-one {
+  display: flex;
+  margin-right: auto;
+}
+
+.nav-item-one:not(:first-child) {
+  padding-left: 45px;
+}
+
+.nav-list-one {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #666666;
+}
+
+.btn-div {
+  display: flex;
+  padding-left: 57px;
+  border-left: 1px solid #E1E1E1;
+  ;
+}
+
+.btn {
+  padding: 20px 13px;
+  color: var(--colorCC9933);
+  border: 1px solid var(--colorCC9933);
+  height: 42px;
+  align-items: center;
+  display: flex;
+  border-radius: 10px;
+}
+
+.btn-tour {
+  margin-right: 40px;
+}

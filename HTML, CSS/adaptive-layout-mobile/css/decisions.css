@@ -1,0 +1,59 @@
+.decisions {
+    margin-bottom: 100px;
+}
+
+.decisions__container {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/low-angle-photo-of-balconies.jpg);
+    padding-left: 80px;
+    padding-top: 100px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.decisions_h2 {
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 85px;
+    color: #FFFFFF;
+    max-width: 830px;
+    margin-bottom: 25px;
+}
+
+.decisions_p {
+    max-width: 810px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-bottom: 90px;
+}
+
+.decisions_btn {
+    padding-top: 24px;
+    margin-bottom: 100px;
+    background: #FF9900;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    max-width: 280px;
+    height: 78px;
+    display: block;
+    transition: background 200ms ease;
+}
+
+.decisions_btn:focus {
+    outline: none;
+    background: rgba(255, 153, 0, 0.7);
+}
+
+.decisions_btn:hover {
+    background: rgba(255, 153, 0, 0.7);
+}
+
+.decisions_btn:active {
+    background: #E1670E;
+}

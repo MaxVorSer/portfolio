@@ -1,0 +1,25 @@
+{
+  "4080a8c6-7f64-4a27-8dbd-85e6c7a15f28": {
+    "id": "4080a8c6-7f64-4a27-8dbd-85e6c7a15f28",
+    "email": "optimisist@gmail.com",
+    "username": "user"
+  },
+  "4bb54c50-2f27-4f17-90a0-c341dc7e1162": {
+    "id": "4bb54c50-2f27-4f17-90a0-c341dc7e1162",
+    "email": "user1@cloud.com",
+    "username": "user1",
+    "password": "user1"
+  },
+  "5048d5e6-6437-47e4-8461-891086f6ed4d": {
+    "id": "5048d5e6-6437-47e4-8461-891086f6ed4d",
+    "email": "user2@imail.com",
+    "username": "user2",
+    "password": "user2"
+  },
+  "d82a4d3f-ef57-4ee3-8313-cbdbc4df04cb": {
+    "id": "d82a4d3f-ef57-4ee3-8313-cbdbc4df04cb",
+    "email": "user3@cloud.com",
+    "username": "user3",
+    "password": "user3"
+  }
+}

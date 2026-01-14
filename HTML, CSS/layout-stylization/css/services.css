@@ -1,0 +1,64 @@
+/*services*/
+
+.services {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.services-ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.services-li {
+  padding: 191px 125px 50px 45px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 570px;
+  height: 330px;
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  margin-bottom: 23px;
+}
+
+.services-li-1 {
+  background-image: url(../img/champagne.jpg);
+}
+
+.services-li-2 {
+  background-image: url(../img/diningtable.jpg);
+}
+
+.services-li-3 {
+  background-image: url(../img/pullandsofa.png);
+}
+
+.services-li-4 {
+  background-image: url(../img/carlo-d-agnolo-aFxSh_l4fbY-unsplash.jpg);
+}
+
+.services-link {
+  display: inline-block;
+  font-family: Muller;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 40px;
+  color: #FFCC66;
+  height: 37px;
+  background-image: url(../img/Rectangle2.svg);
+  background-position: right center;
+  background-repeat: no-repeat;
+  padding-right: 17px;
+}
+
+.section-p {
+  font-family: Muller;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  margin: 0px;
+  line-height: 200%;
+}

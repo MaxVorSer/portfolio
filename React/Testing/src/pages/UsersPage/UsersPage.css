@@ -1,0 +1,28 @@
+.PlayListPage {
+    color: bisque;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.list a {
+    color: cornflowerblue;
+    cursor: pointer;
+}
+
+.list a:hover {
+    color: rgb(72, 111, 184);
+}
+
+.list button {
+    text-align: left;
+    color: cornflowerblue;
+}
+
+.list button:hover {
+    text-align: left;
+    color: rgb(72, 111, 184);
+}

@@ -1,0 +1,30 @@
+.btn {
+    height: 48px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 14px 144px;
+    color: white;
+    background-color: #476BF0;
+    border-radius: 60px;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #3356D7;
+}
+
+.btn:focus {
+    background-color: #2143C1;
+}
+
+.btn:disabled {
+    background-color: #DBDFEB;
+    color: #777C9B;
+}
+
+.btn--forgot {
+    width: 386px;
+}

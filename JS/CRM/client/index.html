@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRM</title>
+    <link rel="preload" href="fonts/open-sans-v34-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/open-sans-v34-latin-600.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/open-sans-v34-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/client.css">
+    <link rel="stylesheet" href="css/popup.css">
+    <link rel="stylesheet" href="css/contactAddItem.css">
+    <link rel="stylesheet" href="css/table.css">
+    <link rel="stylesheet" href="css/loading.css">
+    <link rel="stylesheet" href="css/tooltip.css">
+    <link rel="stylesheet" href="css/search.css">
+    <script type="module" defer src="./js/main.js"></script>
+    <script>
+    </script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__container">
+                <img src="./img/SKB.svg" alt="skb" class="header__img">
+                <div class="header__div-input">
+                    <input class="header__input" placeholder="Введите запрос" type="text">
+                    <ul class="find-list hide"></ul>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <section class="client">
+        <div class="container">
+            <div class="container__client ">
+                <table class="client__table">
+                    <caption class=" client__caption ">Клиенты</caption>
+                    <thead>
+                        <tr class="client__tr ">
+                            <th data-type="id" class="thead__th thead__th_id arrow-up ">ID</th>
+                            <th data-type="text" class="thead__th thead__th_name arrow-down ">Фамилия Имя Отчество
+                                <span class="th__span ">А-Я</span>
+                            </th>
+                            <th data-type="create" class="thead__th thead__th_data arrow-down ">Дата и время <br> создания</th>
+                            <th data-type="update" class="thead__th thead__th_last arrow-down ">Последние <br> изменения</th>
+                            <th class="thead__th thead__th_contact ">Контакты</th>
+                            <th class="thead__th thead__th_action ">Действия</th>
+                        </tr>
+                    </thead>
+                </table>
+                <div class="client__div-btn ">
+                    <button class="client__btn "><img src="./img/+human.svg"  class="img__btn "> Добавить клиента</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

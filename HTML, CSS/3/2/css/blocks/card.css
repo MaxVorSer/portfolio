@@ -1,0 +1,231 @@
+.card {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    padding: 36px 32px 24px;
+    border-radius: 28px;
+    border: 1px solid #E2E4E8;
+    background-color: #FFFFFF;
+}
+
+.card__title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 120%;
+    margin: 0;
+    margin-bottom: 29px;
+    position: relative;
+}
+
+.card__title-hit::after {
+    content: 'Хит продаж';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 114.99999999999999%;
+    letter-spacing: 0.02em;
+    padding: 6px 12px;
+    background: linear-gradient(90deg, #537CCB 0%, #9648BD 100%);
+    border-radius: 60px;
+    align-items: center;
+    position: absolute;
+    color: white;
+    right: -8px;
+    transform: translateX(-20%);
+}
+
+.card__description {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0;
+    gap: 40px;
+    margin-bottom: 23px;
+}
+
+.card__description-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.card__description-item-line::before {
+    content: '';
+    width: 2px;
+    height: 34px;
+    background-color: #999899;
+    position: absolute;
+    top: 6px;
+    right: -22px;
+    transform: translateX(-50%);
+}
+
+.card__description-item-line::after {
+    content: '';
+    width: 2px;
+    height: 34px;
+    background-color: #999899;
+    position: absolute;
+    top: 6px;
+    left: -22px;
+    transform: translateX(-50%);
+}
+
+.card__number {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    margin-bottom: 5px;
+}
+
+.card__number-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+}
+
+.card__advantages {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 28px;
+}
+
+.card__advantages-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.card__advantages-item {
+    display: flex;
+    align-items: center;
+}
+
+.card__advantages-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    margin-left: 8px;
+    width: 156px;
+}
+
+.card__advantages-link {
+    display: flex;
+    align-items: center;
+    color: #259DD6;
+}
+
+.card__advantages-arrow {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 115%;
+    margin-right: 4px;
+}
+
+.custom {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 0;
+    border: none;
+    margin: 0 0 20px;
+}
+
+.custom-radio__label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 110px;
+    border: 2px solid #E2E4E8;
+    border-radius: 20px;
+    padding-left: 16px;
+    position: relative;
+    cursor: pointer;
+}
+
+.custom-radio__label:hover {
+    border-color: #259DD6;
+}
+
+.custom-radio__label:focus-visible {
+    border-color: #259DD6;
+}
+
+.custom-radio__field:checked+.custom-radio__label .custom-radio__icon {
+    display: block;
+}
+
+.custom-radio__field:checked+.custom-radio__label::before {
+    background-color: #259DD6;
+}
+
+.custom-radio__field:checked+.custom-radio__label {
+    border-color: #259DD6;
+}
+
+.custom-radio__label::before {
+    content: '';
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    border: 2px solid #259DD6;
+    border-radius: 50%;
+}
+
+.custom-radio__icon {
+    color: white;
+    position: absolute;
+    top: 23px;
+    right: 22px;
+    display: none;
+}
+
+.custom-radio__top {
+    display: flex;
+    align-items: center;
+}
+
+.custom-radio__price {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 120%;
+    margin: 0 10px 6px 0;
+}
+
+.custom-radio__top-additionally {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
+}
+
+.custom-radio__benefit {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 130%;
+    margin-bottom: 4px;
+}
+
+.custom-radio__prepayment {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 130%;
+    margin-bottom: 8px;
+}
+
+.custom-radio__price--bottom {
+    margin: 0 0 8px;
+}
+
+.custom-radio__benefit--bottom {
+    margin: 0;
+}
+
+.custom-radio__label--bottom {
+    height: 116px;
+}

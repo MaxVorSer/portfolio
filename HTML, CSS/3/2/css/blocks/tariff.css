@@ -1,0 +1,25 @@
+.tariff {
+    margin-bottom: 100px;
+}
+
+.tariff__title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    margin: 40px 0 60px 0;
+}
+
+.tariff__title-link {
+    color: #259DD6;
+}
+
+.tariff__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 340px);
+    gap: 16px;
+    padding: 0;
+}

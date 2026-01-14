@@ -1,0 +1,112 @@
+.decisions {
+    margin-bottom: 100px;
+}
+
+.decisions__wrapper {
+    position: relative;
+}
+
+.decisions__container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+    padding-top: 100px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.decisions_h2 {
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 85px;
+    color: #FFFFFF;
+    max-width: 830px;
+    margin-bottom: 25px;
+}
+
+.decisions_p {
+    max-width: 810px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-bottom: 90px;
+}
+
+.decisions_btn {
+    padding-top: 24px;
+    margin-bottom: 100px;
+    background: #FF9900;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    max-width: 280px;
+    height: 78px;
+    display: block;
+    transition: background 200ms ease;
+}
+
+.decisions_btn:focus {
+    outline: none;
+    background: rgba(255, 153, 0, 0.7);
+}
+
+.decisions_btn:hover {
+    background: rgba(255, 153, 0, 0.7);
+}
+
+.decisions_btn:active {
+    background: #E1670E;
+}
+
+.slider-container {
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.box {
+    position: relative;
+    z-index: 2;
+}
+
+.swiper-slide__1 {
+    background-image: url(../img/low-angle-photo-of-balconies.jpg);
+}
+
+.swiper-slide__2 {
+    background-image: url(../img/brown-and-blue-glass-building-20930762.jpg);
+}
+
+.swiper-slide__3 {
+    background-image: url(../img/apartment-apartment-building-architecture-building-3237052.jpg);
+}
+
+.swiper-pagination-bullet {
+    background-color: #FFFFFF;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: black;
+}

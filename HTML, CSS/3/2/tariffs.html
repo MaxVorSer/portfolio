@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Выбор тарифов - Газпромбанк Мобайл</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <a class="header__logo-link" href="#" aria-label="Перейти на главную страницу Газпромбанк Мобайл">
+                    <svg class="header__logo-image" width="198" height="50" aria-hidden="true">
+              <use xlink:href="images/sprite.svg#logo-gazprombank-mobile"></use>
+            </svg>
+                </a>
+                <button class="header__button" type="button" aria-label="Открыть меню">
+            <svg class="header__logo-image" width="48" height="16" aria-hidden="true">
+              <use xlink:href="images/sprite.svg#icon-burger"></use>
+            </svg>
+          </button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- Выбор тарифа -->
+        <h1 class="visually-hidden" aria-label="Главная страниица выбора тарифа">Выбор тарифа</h1>
+        <section class="tariff">
+            <div class="container">
+                <div class="tariff__wrapper">
+                    <h2 class="tariff__title">Тарифы <a class="tariff__title-link" href="#">#Разумныйвыбор</a></h2>
+                    <ul class="tariff__cards">
+                        <li class="card">
+                            <h3 class="card__title">Пробуй</h3>
+                            <ul class="card__description">
+                                <li class="card__description-item">
+                                    <span class="card__number">5</span>
+                                    <span class="card__number-description">ГБ</span>
+                                </li>
+                                <li class="card__description-item card__description-item-line">
+                                    <span class="card__number">400</span>
+                                    <span class="card__number-description">мин</span>
+                                </li>
+                                <li class="card__description-item">
+                                    <span class="card__number">50</span>
+                                    <span class="card__number-description">sms</span>
+                                </li>
+                            </ul>
+                            <div class="card__advantages">
+                                <ul class="card__advantages-list">
+                                    <li class="card__advantages-item">
+                                        <svg width="40" height="40" aria-hidden="true">
+                                            <use xlink:href="images/sprite.svg#icon-infinity"></use>
+                                        </svg>
+                                        <span class="card__advantages-text">Безлимит внутри сети</span>
+                                    </li>
+                                    <li class="card__advantages-item">
+                                        <svg width="40" height="40" aria-hidden="true">
+                                            <use xlink:href="images/sprite.svg#icon-infinity"></use>
+                                          </svg>
+                                        <span class="card__advantages-text">Мессенджеры без ограничений</span>
+                                    </li>
+                                    <li class="card__advantages-item">
+                                        <svg width="40" height="40" aria-hidden="true">
+                                          <use xlink:href="images/sprite.svg#icon-transfer"></use>
+                                        </svg>
+                                        <span class="card__advantages-text">Перенос остатков sms, минут и Гб</span>
+                                    </li>
+                                    <li class="card__advantages-item">
+                                        <svg width="40" height="40" aria-hidden="true">
+                                          <use xlink:href="images/sprite.svg#icon-additionally"></use>
+                                        </svg>
+                                        <span class="card__advantages-text">Доп. пакеты услуг</span>
+                                    </li>
+                                </ul>
+                                <a class="card__advantages-link" href="#">
+                                    <span class="card__advantages-arrow">Подробнее о тарифе</span>
+                                    <svg width="5" height="10" aria-hidden="true">
+                                     <use xlink:href="images/sprite.svg#icon-arrow-small-blue"></use>
+                                    </svg>
+                                </a>
+                            </div>
+                            <form class="tarriff-form" action="#" method="post">
+                                <fieldset class="custom">
+                                    <legend class="visually-hidden">Цена</legend>
+                                    <div class="custom-radio">
+                                        <input class="custom-radio__field visually-hidden" id="radio-month" type="radio" name="tariff" value="month" checked="">
+                                        <label class="custom-radio__label" for="radio-month">
+                                            <span class="custom-radio__top">
+                                                <span class="custom-radio__price">200 ₽</span>
+                                                <span class="custom-radio__top-additionally">/ месяц</span>
+                                            </span>
+                                            <span class="custom-radio__benefit"><b>400 ₽</b> в месяц без трат</span>
+                                            <span class="custom-radio__benefit">по карте Газпромбанка</span>
+                                            <svg class="custom-radio__icon" width="12" height="12" aria-hidden="true">
+                                                <use xlink:href="images/sprite.svg#icon-arrow-radio"></use>
+                                            </svg>
+                                        </label>
+                                    </div>
+                                    <div class="custom-radio">
+                                        <input class="custom-radio__field visually-hidden" id="radio-6-month" type="radio" name="tariff" value="6-month" checked="">
+                                        <label class="custom-radio__label custom-radio__label--bottom" for="radio-6-month">
+                                            <span class="custom-radio__prepayment">Предоплата за 6 месяцев</span>
+                                            <span class="custom-radio__price custom-radio__price--bottom">1080 ₽</span>
+                                            <span class="custom-radio__benefit custom-radio__benefit--bottom">Экономия <b>1320 ₽</b></span>
+                                            <svg class="custom-radio__icon" width="12" height="12" aria-hidden="true">
+                                                <use xlink:href="images/sprite.svg#icon-arrow-radio"></use>
+                                            </svg>
+                                        </label>
+                                    </div>
+                                    <div class="custom-radio">
+                                        <input class="custom-radio__field visually-hidden" id="radio-12-month" type="radio" name="tariff" value="12-month" checked="">
+                                        <label class="custom-radio__label custom-radio__label--bottom" for="radio-12-month">
+                                            <span class="custom-radio__prepayment">Предоплата за 12 месяцев</span>
+                                            <span class="custom-radio__price custom-radio__price--bottom">1680 ₽</span>
+                                            <span class="custom-radio__benefit custom-radio__benefit--bottom">Экономия <b>3120 ₽</b></span>
+                                            <svg class="custom-radio__icon" width="12" height="12" aria-hidden="true">
+                                                <use xlink:href="images/sprite.svg#icon-arrow-radio"></use>
+                                            </svg>
+                                        </label>
+                                    </div>
+                                </fieldset>
+                                <button class="btn" type="submit">Заказать SIM-карту</button>
+                            </form>
+                        </li>
+                        <li class="card">
+                            <h3 class="card__title card__title-hit">Действуй</h3>
+                            <ul class="card__description">
+                                <li class="card__description-item">
+                                    <span class="card__number">20</span>
+                                    <span class="card__number-description">ГБ</span>
+                                </li>
+                                <li class="card__description-item card__description-item-line">
+                                    <span class="card__number">600</span>
+                                    <span class="card__number-description">мин</span>
+                                </li>
+                                <li class="card__description-item">
+                                    <span class="card__number">50</span>
+                                    <span class="card__number-description">sms</span>
+                                </li>
+                            </ul>
+                            <div class="card__advantages">
+                                <ul class="card__advantages-list">
+                                    <li class="card__advantages-item">
+                                        <svg width="40" height="40" aria-hidden="true">
+                                            <use xlink:href="images/sprite.svg#icon-infinity"></use>
+                                        </svg>
+                                        <span class="card__advantages-text">Безлимит внутри сети</span>
+                                    </li>
+                                    <li class="card__advantages-item">
+                                        <svg width="40" height="40" aria-hidden="true">
+                                            <use xlink:href="images/sprite.svg#icon-infinity"></use>
+                                          </svg>
+                                        <span class="card__advantages-text">Мессенджеры без ограничений</span>
+                                    </li>
+                                    <li class="card__advantages-item">
+                                        <svg width="40" height="40" aria-hidden="true">
+                                          <use xlink:href="images/sprite.svg#icon-transfer"></use>
+                                        </svg>
+                                        <span class="card__advantages-text">Перенос остатков sms, минут и Гб</span>
+                                    </li>
+                                    <li class="card__advantages-item">
+                                        <svg width="40" height="40" aria-hidden="true">
+                                          <use xlink:href="images/sprite.svg#icon-additionally"></use>
+                                        </svg>
+                                        <span class="card__advantages-text">Доп. пакеты услуг</span>
+                                    </li>
+                                </ul>
+                                <a class="card__advantages-link" href="#">
+                                    <span class="card__advantages-arrow">Подробнее о тарифе</span>
+                                    <svg width="5" height="10" aria-hidden="true">
+                                     <use xlink:href="images/sprite.svg#icon-arrow-small-blue"></use>
+                                    </svg>
+                                </a>
+                            </div>
+                            <form class="tarriff-form" action="#" method="post">
+                                <fieldset class="custom">
+                                    <legend class="visually-hidden">Цена</legend>
+                                    <div class="custom-radio">
+                                        <input class="custom-radio__field visually-hidden" id="radio-month2" type="radio" name="tariff" value="month" checked="">
+                                        <label class="custom-radio__label" for="radio-month2">
+                                            <span class="custom-radio__top">
+                                                <span class="custom-radio__price">300 ₽</span>
+                                                <span class="custom-radio__top-additionally">/ месяц</span>
+                                            </span>
+                                            <span class="custom-radio__benefit"><b>600 ₽</b> в месяц без трат</span>
+                                            <span class="custom-radio__benefit">по карте Газпромбанка</span>
+                                            <svg class="custom-radio__icon" width="12" height="12" aria-hidden="true">
+                                                <use xlink:href="images/sprite.svg#icon-arrow-radio"></use>
+                                            </svg>
+                                        </label>
+                                    </div>
+                                    <div class="custom-radio">
+                                        <input class="custom-radio__field visually-hidden" id="radio-6-month2" type="radio" name="tariff" value="6-month" checked="">
+                                        <label class="custom-radio__label custom-radio__label--bottom" for="radio-6-month2">
+                                            <span class="custom-radio__prepayment">Предоплата за 6 месяцев</span>
+                                            <span class="custom-radio__price custom-radio__price--bottom">1620 ₽</span>
+                                            <span class="custom-radio__benefit custom-radio__benefit--bottom">Экономия <b>1980 ₽</b></span>
+                                            <svg class="custom-radio__icon" width="12" height="12" aria-hidden="true">
+                                                <use xlink:href="images/sprite.svg#icon-arrow-radio"></use>
+                                            </svg>
+                                        </label>
+                                    </div>
+                                    <div class="custom-radio">
+                                        <input class="custom-radio__field visually-hidden" id="radio-12-month2" type="radio" name="tariff" value="12-month" checked="">
+                                        <label class="custom-radio__label custom-radio__label--bottom" for="radio-12-month2">
+                                            <span class="custom-radio__prepayment">Предоплата за 12 месяцев</span>
+                                            <span class="custom-radio__price custom-radio__price--bottom">2520 ₽</span>
+                                            <span class="custom-radio__benefit custom-radio__benefit--bottom">Экономия <b>4680 ₽</b></span>
+                                            <svg class="custom-radio__icon" width="12" height="12" aria-hidden="true">
+                                                <use xlink:href="images/sprite.svg#icon-arrow-radio"></use>
+                                            </svg>
+                                        </label>
+                                    </div>
+                                </fieldset>
+                                <button class="btn btn--centr" type="submit">Заказать SIM-карту</button>
+                            </form>
+                        </li>
+                        <li class="card">
+                            <h3 class="card__title">Побеждай</h3>
+                            <ul class="card__description">
+                                <li class="card__description-item">
+                                    <span class="card__number">40</span>
+                                    <span class="card__number-description">ГБ</span>
+                                </li>
+                                <li class="card__description-item card__description-item-line">
+                                    <span class="card__number">1000</span>
+                                    <span class="card__number-description">мин</span>
+                                </li>
+                                <li class="card__description-item">
+                                    <span class="card__number">50</span>
+                                    <span class="card__number-description">sms</span>
+                                </li>
+                            </ul>
+                            <div class="card__advantages">
+                                <ul class="card__advantages-list">
+                                    <li class="card__advantages-item">
+                                        <svg width="40" height="40" aria-hidden="true">
+                                            <use xlink:href="images/sprite.svg#icon-infinity"></use>
+                                        </svg>
+                                        <span class="card__advantages-text">Безлимит внутри сети</span>
+                                    </li>
+                                    <li class="card__advantages-item">
+                                        <svg width="40" height="40" aria-hidden="true">
+                                            <use xlink:href="images/sprite.svg#icon-infinity"></use>
+                                          </svg>
+                                        <span class="card__advantages-text">Мессенджеры без ограничений</span>
+                                    </li>
+                                    <li class="card__advantages-item">
+                                        <svg width="40" height="40" aria-hidden="true">
+                                          <use xlink:href="images/sprite.svg#icon-transfer"></use>
+                                        </svg>
+                                        <span class="card__advantages-text">Перенос остатков sms, минут и Гб</span>
+                                    </li>
+                                    <li class="card__advantages-item">
+                                        <svg width="40" height="40" aria-hidden="true">
+                                          <use xlink:href="images/sprite.svg#icon-additionally"></use>
+                                        </svg>
+                                        <span class="card__advantages-text">Доп. пакеты услуг</span>
+                                    </li>
+                                </ul>
+                                <a class="card__advantages-link" href="#">
+                                    <span class="card__advantages-arrow">Подробнее о тарифе</span>
+                                    <svg width="5" height="10" aria-hidden="true">
+                                     <use xlink:href="images/sprite.svg#icon-arrow-small-blue"></use>
+                                    </svg>
+                                </a>
+                            </div>
+                            <form class="tarriff-form" action="#" method="post">
+                                <fieldset class="custom">
+                                    <legend class="visually-hidden">Цена</legend>
+                                    <div class="custom-radio">
+                                        <input class="custom-radio__field visually-hidden" id="radio-month3" type="radio" name="tariff" value="month" checked="">
+                                        <label class="custom-radio__label" for="radio-month3">
+                                            <span class="custom-radio__top">
+                                                <span class="custom-radio__price">450 ₽</span>
+                                                <span class="custom-radio__top-additionally">/ месяц</span>
+                                            </span>
+                                            <span class="custom-radio__benefit"><b>900 ₽</b> в месяц без трат</span>
+                                            <span class="custom-radio__benefit">по карте Газпромбанка</span>
+                                            <svg class="custom-radio__icon" width="12" height="12" aria-hidden="true">
+                                                <use xlink:href="images/sprite.svg#icon-arrow-radio"></use>
+                                            </svg>
+                                        </label>
+                                    </div>
+                                    <div class="custom-radio">
+                                        <input class="custom-radio__field visually-hidden" id="radio-6-month3" type="radio" name="tariff" value="6-month" checked="">
+                                        <label class="custom-radio__label custom-radio__label--bottom" for="radio-6-month3">
+                                            <span class="custom-radio__prepayment">Предоплата за 6 месяцев</span>
+                                            <span class="custom-radio__price custom-radio__price--bottom">2430 ₽</span>
+                                            <span class="custom-radio__benefit custom-radio__benefit--bottom">Экономия <b>2970 ₽</b></span>
+                                            <svg class="custom-radio__icon" width="12" height="12" aria-hidden="true">
+                                                <use xlink:href="images/sprite.svg#icon-arrow-radio"></use>
+                                            </svg>
+                                        </label>
+                                    </div>
+                                    <div class="custom-radio">
+                                        <input class="custom-radio__field visually-hidden" id="radio-12-month3" type="radio" name="tariff" value="12-month" checked="">
+                                        <label class="custom-radio__label custom-radio__label--bottom" for="radio-12-month3">
+                                            <span class="custom-radio__prepayment">Предоплата за 12 месяцев</span>
+                                            <span class="custom-radio__price custom-radio__price--bottom">3780 ₽</span>
+                                            <span class="custom-radio__benefit custom-radio__benefit--bottom">Экономия <b>7020 ₽</b></span>
+                                            <svg class="custom-radio__icon" width="12" height="12" aria-hidden="true">
+                                                <use xlink:href="images/sprite.svg#icon-arrow-radio"></use>
+                                            </svg>
+                                        </label>
+                                    </div>
+                                </fieldset>
+                                <button class="btn btn--right" type="submit">Заказать SIM-карту</button>
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="order">
+            <div class="container">
+                <div class="order__wrapper">
+                    <h2 class="order__title">Заказать SIM-карту Газпромбанк Мобайл</h2>
+                    <div class="order__sim">
+                        <div class="order__inner">
+                            <div class="order__steps-wrapper">
+                                <div class="order__step">
+                                    <span class="order__step-tag">Шаг 1</span>
+                                    <span class="order__step-title">Заказ SIM-карты</span>
+                                </div>
+                                <div class="order__step">
+                                    <span class="order__step-tag">Шаг 2</span>
+                                    <span class="order__step-title">Подтверждение</span>
+                                </div>
+                                <div class="order__step">
+                                    <span class="order__step-tag">Шаг 3</span>
+                                    <span class="order__step-title">Выбор тарифа</span>
+                                </div>
+                                <div class="order__step">
+                                    <span class="order__step-tag">Шаг 4</span>
+                                    <span class="order__step-title">Доставка</span>
+                                </div>
+                            </div>
+                            <form class="order__form" action="#" method="post">
+                                <div class="order__form-inner">
+                                    <div class="order__form-top">
+                                        <fieldset class="order__form-top-left">
+                                            <div class="order__form-top-form radio-order">
+                                                <span class="radio-order__title">Выберите тип SIM-карты</span>
+                                                <div class="radio-order__section">
+                                                    <div class="radio-order__plastic">
+                                                        <input class="order__radio-field visually-hidden" id="radio-plastic" type="radio" name="delivery" value="Plastic">
+                                                        <label class="order__radio-label order__radio-label--error" for="radio-plastic">Пластиковая
+                                                            <svg class="order__radio-icon" width="12" height="12" aria-hidden="true">
+                                                                <use xlink:href="images/sprite.svg#icon-arrow-radio"></use>
+                                                            </svg>
+                                                        </label>
+                                                    </div>
+                                                    <div class="order__radio__esim">
+                                                        <input class="order__radio-field visually-hidden" id="radio-eSIM" type="radio" name="delivery" value="eSIM">
+                                                        <label class="order__radio-label" for="radio-eSIM">eSIM
+                                                            <svg class="order__radio-icon" width="12" height="12" aria-hidden="true">
+                                                                <use xlink:href="images/sprite.svg#icon-arrow-radio"></use>
+                                                            </svg>
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="order__input order__input--error">
+                                                <label class="order__input-label" for="user-tel">Контактный номер*</label>
+                                                <input class="order__input-field" type="tel" name="user-tel" id="user-tel" placeholder="+7 (9__) ___-__-__" required="">
+                                                <span class="order__input-error">Некорректное значение</span>
+                                            </div>
+                                        </fieldset>
+                                        <fieldset class="order___right">
+                                            <div class="order__input  order__input-right">
+                                                <label class="order__input-label" for="user-last-name">ФИО*</label>
+                                                <input class="order__input-field" type="text" name="user-last-name" id="user-last-name" placeholder="Иванов Иван Иванович" required="">
+                                                <span class="order__input-error">Некорректное значение</span>
+                                            </div>
+                                            <div class="order__input">
+                                                <label class="order__input-label" for="user-email">Электронная почта</label>
+                                                <input class="order__input-field" type="email" name="user-last-name" id="user-email" placeholder="ivan@email.ru" required="">
+                                                <span class="order__input-error">Некорректное значение</span>
+                                            </div>
+                                        </fieldset>
+                                    </div>
+                                    <div class="order__bottom">
+                                        <div class="order__bottom-checkbox">
+                                            <div class="order__checkbox order__checkbox-number">
+                                                <input class="order__checkbox-field visually-hidden" type="checkbox" id="number" name="number">
+                                                <label for="number" class="order__checkbox-label order__checkbox-label--error">
+                                                    <span class="order__checkbox-heading-number">Перенести номер и&nbsp;получать +5&nbsp;ГБ ежемесячно</span>
+                                                        <svg class="order__checkbox-icon" width="12" height="12" aria-hidden="true">
+                                                                <use xlink:href="images/sprite.svg#icon-arrow-radio"></use>
+                                                        </svg>
+                                                </label>
+                                            </div>
+                                            <div class="order__checkbox order__checkbox-agree">
+                                                <input class="order__checkbox-field visually-hidden" type="checkbox" id="agree" name="agree">
+                                                <label for="agree" class="order__checkbox-label">
+                                                    <span class="order__checkbox-heading-agree">Согласен с
+                                                        <a class="order__checkbox-agree-link" href="#"> Правилами заказа и доставки SIM-карт</a>, на обработку в соответствии с ними моих персональных данных и&nbsp;получение рекламы.</span>
+                                                        <svg class="order__checkbox-icon" width="12" height="12" aria-hidden="true">
+                                                                <use xlink:href="images/sprite.svg#icon-arrow-radio"></use>
+                                                        </svg>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <button class="btn btn--order">Продолжить</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <p class="order__copyright">Этот сайт защищен reCAPTCHA, и к нему применяются
+                            <a class="order__copyright-link" href="#">Политика конфиденциальности Google и Условия предоставления услуг</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__top">
+            <div class="container">
+                <div class="footer__wrapper">
+                    <a class="footer__logo-link" href="#" aria-label="Перейти на главную страницу Газпромбанк Мобайл">
+                        <svg class="footer__logo-image" width="198" height="50" aria-hidden="true">
+                <use xlink:href="images/sprite.svg#logo-gazprombank-mobile"></use>
+              </svg>
+                    </a>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a class="footer__link" href="#">
+                  Тарифы
+                </a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="#">
+                  Оплата
+                </a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="#">
+                  Акции
+                </a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="#">
+                  Поездки
+                </a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="#">
+                  Карта покрытия
+                </a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="#">
+                  Офисы
+                </a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="#">
+                  Новости
+                </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="container">
+                <div class="footer__wrapper">
+                    <div class="footer__copyright">
+                        <p class="footer__copyright-text">
+                            &copy;&nbsp;2024 Газпромбанк Мобайл <br> ООО &laquo;НМК&raquo;, ОГРН 1207700160590, лицензия Роскомнадзора &#8470;&nbsp;183555, 6+ г. Москва, ул. Новочеремушкинская, д.&nbsp;63, эт.&nbsp;1, пом. VI, ком.&nbsp;89
+                        </p>
+                        <p class="footer__copyright-info">
+                            Информация от&nbsp;18.02.2024
+                        </p>
+                    </div>
+                    <ul class="footer__phones">
+                        <li class="footer__phones-item">
+                            <p class="footer__phones-text footer__phones-text--size-small">
+                                Для абонентов Газпромбанк Мобайл
+                            </p>
+                            <a class="footer__phones-link" href="tel:0801">
+                  0801
+                </a>
+                        </li>
+                        <li class="footer__phones-item">
+                            <p class="footer__phones-text">
+                                Из&nbsp;роуминга и&nbsp;для других операторов сотовой связи
+                            </p>
+                            <a class="footer__phones-link" href="tel:74955396747">
+                  +7&nbsp;495 539-67-47
+                </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

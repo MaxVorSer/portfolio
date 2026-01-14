@@ -1,0 +1,111 @@
+.forgot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.forgot__wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 450px;
+}
+
+.forgot__form {
+    position: relative;
+}
+
+.form__fieldset {
+    border: none;
+    width: 100%;
+    margin-bottom: 28px;
+}
+
+.forgot__radio-inner {
+    width: 100%;
+    padding: 28px 0 28px 62px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    border: 1px solid #CDCFDE80;
+    border-radius: 12px;
+}
+
+.forgot__radio-label {
+    position: relative;
+    cursor: pointer;
+}
+
+.forgot__radio-label::before {
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid #CDCFDE;
+    top: 50%;
+    left: -30px;
+    width: 20px;
+    height: 20px;
+    transform: translateY(-50%);
+}
+
+.forgot__radio-label::after {
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    background-color: white;
+    top: 50%;
+    left: -24px;
+    width: 8px;
+    height: 8px;
+    transform: translateY(-50%);
+    display: none;
+}
+
+.forgot__radio-field:checked+.forgot__radio-label::before {
+    background-color: #476BF0;
+    display: block;
+}
+
+.forgot__radio-field:checked+.forgot__radio-label::after {
+    display: block;
+}
+
+.forgot__back {
+    position: absolute;
+    box-shadow: 2px 2px 20px 0px #101A3B1A;
+    background-color: #FFFFFF;
+    top: 22px;
+    left: 0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+
+.forgot__back-icon {
+    color: black;
+}
+
+.forgot__back:hover .forgot__back-icon {
+    color: #476BF0;
+}
+
+.forgot__back:focus .forgot__back-icon {
+    color: #476BF0;
+}
+
+.forgot__radio-label--error.forgot__radio-label::before {
+    border-color: red;
+}
+
+.forgot__radio-new:hover .forgot__radio-label::before {
+    border-color: #476BF0;
+}
+
+.forgot__radio-new:focus .forgot__radio-label::before {
+    border-color: #A0B4FF;
+}

@@ -1,0 +1,40 @@
+.hero {
+    background: #F4F6FA;
+    min-height: calc(100vh - 88px);
+}
+
+.hero__wrapper {
+    display: flex;
+    column-gap: 56px;
+    align-items: center;
+    padding: 70px 0 70px 0;
+}
+
+.hero__reight {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.hero__title {
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.hero__btn {
+    display: flex;
+    gap: 16px;
+}
+
+.hero__douwnloud {
+    width: 224px;
+    height: 56px;
+}
+
+.hero__QR {
+    width: 56px;
+    height: 56px;
+}

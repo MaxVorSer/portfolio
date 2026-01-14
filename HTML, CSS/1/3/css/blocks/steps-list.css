@@ -1,0 +1,17 @@
+.steps-list {
+    list-style: none;
+    margin: 0 0 40px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 32px;
+}
+
+.steps-list__item {
+    width: calc((100%/3) - 24px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}

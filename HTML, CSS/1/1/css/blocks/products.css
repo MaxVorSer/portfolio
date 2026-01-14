@@ -1,0 +1,17 @@
+.products {
+    list-style: none;
+    margin: 0 0 70px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px 32px;
+}
+
+.products__item {
+    width: calc((100%/2) - 16px);
+}
+
+.products--four .products__item {
+    width: calc((100%/4) - 24px);
+}

@@ -1,0 +1,52 @@
+.gazprom-pay__container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gazprom-pay__list {
+    display: grid;
+    grid-template-columns: repeat(4, 286px);
+    justify-content: center;
+    gap: 32px;
+    margin: 0 0 100px;
+    align-items: start;
+    padding: 0;
+}
+
+.gazprom-pay__title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+    margin: 0 0 40px;
+    width: 520px;
+    display: block;
+}
+
+.gazprom-pay__item {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.gazprom-pay__img {
+    background-color: #F6F6F6;
+    border-radius: 16px;
+    margin-bottom: 20px;
+}
+
+.gazprom-pay__text-up {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+
+.gazprom-pay__text-down {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #696E82;
+}

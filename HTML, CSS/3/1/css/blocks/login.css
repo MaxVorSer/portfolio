@@ -1,0 +1,82 @@
+.login {
+    display: flex;
+    align-items: center;
+}
+
+.login__wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 450px;
+}
+
+.login__registration {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login__forget {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1E222E;
+}
+
+.login__entry-link-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.form__wrapper-input--login {
+    margin-bottom: 24px;
+}
+
+.login__icon-span {
+    border-radius: 50%;
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    padding: 4px;
+}
+
+.btn--login {
+    margin-bottom: 24px;
+}
+
+.login__entry-help {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    padding: 24px 0px;
+    border-radius: 0 0 20px 20px;
+    background: linear-gradient(90deg, #F5F6FA 0%, #F7F1F7 51.5%, #F5F7FD 100%);
+    margin-bottom: 32px;
+}
+
+.login__entry-help-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.form--login {
+    border-radius: 20px 20px 0 0;
+}
+
+.login__entry-help-span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.login__link-registration {
+    color: #476BF0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}

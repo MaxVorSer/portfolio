@@ -1,0 +1,82 @@
+:root {
+    --colorFFFFFF: #FFFFFF;
+    --colorCC9933: #CC9933;
+    --color3:
+}
+
+body {
+    background: #E5E5E5;
+    font-family: 'Muller', 'sans-serif';
+}
+
+.visually-hidden {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+p,
+h1,
+h2,
+h3,
+ul,
+ol {
+    margin: 0px;
+}
+
+.btn:hover {
+    transform: translate(3px, 3px);
+    cursor: pointer;
+}
+
+.btn {
+    background-color: var(--colorFFFFFF);
+    transition: transform 0.3s ease;
+}
+
+.a_1 {
+    transition: color 0.2s ease, background-image 0.2s ease;
+}
+
+.a_1:hover {
+    color: #b1b110;
+}
+
+.a_2:hover {
+    background-image: url(../img/arrowcopy.svg);
+}
+
+.a_3:hover {
+    background-image: url(../img/Rectangle2copy.svg);
+}

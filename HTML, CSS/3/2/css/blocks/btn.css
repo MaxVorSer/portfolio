@@ -1,0 +1,33 @@
+.btn {
+    width: 100%;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    padding: 18px 0;
+    background: linear-gradient(270deg, #537CCB 0%, #13AED7 100%);
+    color: white;
+    border-radius: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn--centr {
+    background: linear-gradient(270deg, #9548BD 0%, #547CCB 100%);
+}
+
+.btn--right {
+    background: linear-gradient(270deg, #D812AE 0%, #9548BD 100%);
+}
+
+.btn--order {
+    height: 40px;
+    background: #F0F0F0;
+    color: #858385;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 115%;
+    padding: 12px 20px;
+    cursor: pointer;
+}

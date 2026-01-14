@@ -1,0 +1,76 @@
+/*Advantages*/
+
+.Advantages {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.advantages-ul {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.advantages-li {
+  background-color: #FFFFFF;
+  margin-bottom: 23px;
+  width: 275px;
+  height: 275px;
+  border-radius: 15px;
+  padding: 0px 41px 42px 45px;
+}
+
+/*
+.advantages-span {
+  display: inline-block;
+  width: 64px;
+  height: 66px;
+  margin-bottom: 16px;
+}*/
+
+.advantages-p-1 {
+  background-image: url(../img/bath.svg);
+}
+
+.advantages-p-2 {
+  background-image: url(../img/hanger.svg);
+}
+
+.advantages-p-3 {
+  background-image: url(../img/heating.svg);
+}
+
+.advantages-p-4 {
+  background-image: url(../img/hotel-key.svg);
+}
+
+.advantages-p-5 {
+  background-image: url(../img/parking.svg);
+}
+
+.advantages-p-6 {
+  background-image: url(../img/reception.svg);
+}
+
+.advantages-p-7 {
+  background-image: url(../img/security-box.svg);
+}
+
+.advantages-p-8 {
+  background-image: url(../img/swimming-pool.svg);
+}
+
+.advantages-p {
+  font-family: Muller;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 200%;
+  width: 188px;
+  height: 118px;
+  margin: 0px;
+  background-position: left;
+  background-repeat: no-repeat;
+  padding-top: 110px;
+}

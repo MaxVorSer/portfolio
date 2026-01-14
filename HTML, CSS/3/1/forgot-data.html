@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Проблема с входом - Газпромбанк Бизнес-Онлайн</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__wraper  header__wraper--forgot">
+                <a class="header__logo-link" href="#" aria-label="Перейти на главную страницу Газпромбанк Мобайл">
+                    <img src="/images/sprite/logo.svg" class="header__logo" width="203" height="50" aria-hidden="true">
+                </a>
+                <div class="header__reight">
+                    <div class="header__best">
+                        <span class="header__best-top">Топ-3 лучших банков для корпоративных клиентов</span>
+                        <span class="header__best-bottom">По версии Markswebb</span>
+                    </div>
+                    <a class="header__marksweb" href="#" aria-label="Перейти на главную страницу marksweb">
+                        <svg class="header__marksweb-svg" width="24" height="14" aria-hidden="true">
+                            <use xlink:href="images/sprite.svg#icon-markswebb"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="forgot">
+            <div class="container">
+                <h1 class="visually-hidden">Проблема с входом</h1>
+                <div class="forgot__wrapper ">
+                    <form class="form forgot__form" action="#" method="post">
+                        <div class="form__inner">
+                            <fieldset class="form__fieldset">
+                                <h2 class="form__title">Не можете войти?</h2>
+                                <div class="forgot__radio-inner">
+                                    <div class="forgot__radio-new">
+                                        <input class="forgot__radio-field visually-hidden" id="new-password" type="radio" name="recover" value="new-password">
+                                        <label class="forgot__radio-label forgot__radio-label--error" for="new-password">Установить новый пароль</label>
+                                    </div>
+                                    <div class="forgot__radio-new">
+                                        <input class="forgot__radio-field visually-hidden" id="recover" type="radio" name="recover" value="recover">
+                                        <label class="forgot__radio-label" for="recover">Восстановить логин</label>
+                                    </div>
+                                </div>
+                            </fieldset>
+                            <button class="btn btn--forgot" type="submit">Продолжить</button>
+                            <a class="forgot__back" aria-label="назад">
+                                <svg class="forgot__back-icon" width="18" height="13" aria-hidden="true">
+                                  <use xlink:href="images/sprite.svg#icon-back"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <ul class="footer__left">
+                    <li class="footer__tel">
+                        <svg class="footer__tel-icon" width="16" height="16" aria-hidden="true">
+                            <use xlink:href="images/sprite.svg#icon-tel"></use>
+                        </svg>
+                        <span class="footer__title">8 800 100 11 89</span>
+                    </li>
+                    <li class="footer__tg">
+                        <svg class="footer__tg-icon" width="17" height="14" aria-hidden="true">
+                            <use xlink:href="images/sprite.svg#icon-tg"></use>
+                        </svg>
+                        <span class="footer__title">Написать в Telegram</span>
+                    </li>
+                    <li class="footer__copyright">&copy;&nbsp;2024 Банк ГПБ (АО) Генеральная лицензия Банка России &#8470;&nbsp;354</li>
+                    <li class="footer__copyright">Политика обработки персональных данных</li>
+                </ul>
+                <button class="btn-theme">
+                    <span class="footer__theme">Светлая тема</span>
+                    <svg class="footer__theme-logo" width="16" height="16" aria-hidden="true">
+                            <use xlink:href="images/sprite.svg#icon-theme"></use>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

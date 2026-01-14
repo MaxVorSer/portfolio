@@ -1,0 +1,80 @@
+/*section-form*/
+
+.section-form {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.div-form {
+  width: 1080px;
+  height: 106px;
+  background-color: var(--colorFFFFFF);
+  border-radius: 15px;
+  padding: 28px 28px;
+  margin: 19px 45px 71px 45px;
+}
+
+.form {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  padding: 0px;
+  border: 0px;
+  border-color: #E1E1E1;
+  font-family: Muller;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.input-0 {
+  width: 180px;
+}
+
+.input-1 {
+  width: 180px;
+}
+
+.input_number {
+  border-bottom: 1px solid #CCCCCC;
+  width: 121px;
+}
+
+.input_data {
+  width: 140px;
+}
+
+
+.div-form-1 {
+  display: block;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #E1E1E1;
+  margin-right: 20px;
+  padding-right: 20px;
+}
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+  opacity: 1;
+}
+
+.foorm-label {
+  margin-bottom: 15px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.container-form {
+  height: 274px;
+  background-color: #E9E9E9;
+  border-radius: 15px;
+  padding: 0px;
+  padding-top: 38px;
+}
+
